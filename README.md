@@ -68,3 +68,5 @@ Each section roughly requires 3 hours to finish, so a total of 6 hours is requir
 
 
 ## Prerequisites
+
+Full list can be found in [prerequisites.txt](/prerequisites.txt)
