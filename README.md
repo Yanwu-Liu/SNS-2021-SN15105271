@@ -69,4 +69,25 @@ Each section roughly requires 3 hours to finish, so a total of 6 hours is requir
 
 ## Prerequisites
 
+- Mac OS Catalina 10.15
+- Python 3.6.7
+- pandas 1.1.4
+- numpy 1.18.5
+- csv 1.0
+- json 2.0.9
+- matplotlib 3.3.2
+- cycler 0.10.0
+- PIL 8.0.1
+- tensorflow 2.3.1
+- tensorflow.python.keras 2.4.0
+- h5py 2.10.0
+- scipy 1.5.4
+- tensorboard 2.4.0
+- sklearn 0.21.2
+- statsmodels 0.12.1
+
 Full list can be found in [prerequisites.txt](/prerequisites.txt)
+
+
+
+
