@@ -66,6 +66,8 @@ For both sections, 0.75 of dataset is used as training, 0.15 as validation and 0
 
 Each section roughly requires 3 hours to finish, so a total of 6 hours is required to print all results. 
 
+The user may also change the parameter range in grid search under each section function file. 
+
 
 ## Prerequisites
 
