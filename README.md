@@ -50,8 +50,8 @@ This repository contains the following files:
 - **sec2_dailyhealthcare.py**: function file for Section 2: predicting daily new hospital admissions in England from 30-Nov-2020 to 28-Dec-2020. Logic flow same as section 1. 
 
 
-- Jupyter_report.pdf[/Jupyter_report.pdf]: a Jupyternotebook report printing all results for both section 1 and section 2.
-- prerequisites.txt[/prerequisites.txt]: a text file summarising all prerequisites packages.
+- [Jupyter_report.pdf](/Jupyter_report.pdf): a Jupyternotebook report printing all results for both section 1 and section 2.
+- [prerequisites.txt](/prerequisites.txt]): a text file summarising all prerequisites packages.
 
 
 ## DataSplitting
