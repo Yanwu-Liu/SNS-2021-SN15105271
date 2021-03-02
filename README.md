@@ -25,10 +25,10 @@ This is the GitHub repository for ELEC0088 SNS, containing a testbed for Python3
 
 ## Files
 This repository contains the following files:
-- **Datasets (folder)**: 2 datasets are stored inside its subfolder England, containing daily new cases csv and daily new hospital admissions csv separately. Both are downloaded from [GOV.UK](https://coronavirus.data.gov.uk/). 
+- [Datasets](/Datasets): 2 datasets are stored inside its subfolder England, containing daily new cases csv and daily new hospital admissions csv separately. Both are downloaded from [GOV.UK](https://coronavirus.data.gov.uk/). 
 - main.py: main function file. Prints results only
 
-- **common_model_functions.py**: contains functions that can be shared across 2 sections. This includde:
+- [common_model_functions.py](/common_model_functions.py): contains functions that can be shared across 2 sections. This includde:
   - train test split
   - feature engineering
   - data preprocessing (i.e. acf, pacf, ADF test)
@@ -38,7 +38,7 @@ This repository contains the following files:
   - calculate evaluation matrices: RMSE, MAE and R squared
   - plotting
   
-- **sec1_dailycases.py**: function file for section 1: predicting daily new cases in England from 24-Nov-2020 to 27-Dec-2020. The following steps are carried out in sequence:
+- [sec1_dailycases.py](/sec1_dailycases.py): function file for section 1: predicting daily new cases in England from 24-Nov-2020 to 27-Dec-2020. The following steps are carried out in sequence:
   - inspect the original dataset behaviour, perform stationary tests such as rolling mean, stddev, ADF test, ACF plot and PACF plot.
   - perform train-test split and feature engineering. Feature engineering is specially for LSTM. For univariate dataset, a window size of w is chosen to use the past w length of data as feature set.
 
@@ -47,7 +47,7 @@ This repository contains the following files:
   - Perform prediction on test set
   - Calculate other evaluation matrices (MAE and R squared). Generate plots and tables.
   
-- **sec2_dailyhealthcare.py**: function file for Section 2: predicting daily new hospital admissions in England from 30-Nov-2020 to 28-Dec-2020. Logic flow same as section 1. 
+- [sec2_dailyhealthcare.py](/sec2_dailyhealthcare.py): function file for Section 2: predicting daily new hospital admissions in England from 30-Nov-2020 to 28-Dec-2020. Logic flow same as section 1. 
 
 
 - [Jupyter_report.pdf](/Jupyter_report.pdf): a Jupyternotebook report printing all results for both section 1 and section 2.
