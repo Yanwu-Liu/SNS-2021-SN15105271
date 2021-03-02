@@ -26,7 +26,7 @@ This is the GitHub repository for ELEC0088 SNS, containing a testbed for Python3
 ## Files
 This repository contains the following files:
 - [Datasets](/Datasets): 2 datasets are stored inside its subfolder England, containing daily new cases csv and daily new hospital admissions csv separately. Both are downloaded from [GOV.UK](https://coronavirus.data.gov.uk/). 
-- main.py: main function file. Prints results only
+- [main.py](/main.py): main function file. Prints results only
 
 - [common_model_functions.py](/common_model_functions.py): contains functions that can be shared across 2 sections. This includde:
   - train test split
