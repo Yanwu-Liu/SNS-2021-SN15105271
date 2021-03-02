@@ -54,6 +54,8 @@ This repository contains the following files:
 - [prerequisites.txt](/prerequisites.txt]): a text file summarising all prerequisites packages.
 
 
+- During runtime the program will automatically generate 2 folders: <sec1_dailycases_res> and <sec2_dailyhealthcare_res> to store all plots generated. (The 2 folders are initially none in the repository by default). 
+
 ## DataSplitting
 
 For both sections, 0.75 of dataset is used as training, 0.15 as validation and 0.10 as test set.
