@@ -71,7 +71,7 @@ For both sections, 0.75 of dataset is used as training, 0.15 as validation and 0
 - Download repository. Do not change the storage place of datasets. 
 - Run python3 main.py
 
-Section 1 requires around 3 hours of runtime and Section 2 requires 1.64. So a total of 5 hours is required to print all results. 
+Section 1 requires around 3 hours of runtime and Section 2 requires 1.64 hours. So a total of 5 hours is required to print all results. 
 
 The user may also change the parameter range in grid search under each section function file. 
 
